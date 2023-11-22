@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 import os.path
 
 # File path for the Excel file
-excel_file_path = "attendance_data.xlsx"
+excel_file_path = r"https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fraw.githubusercontent.com%2FRomilai%2FAttendace_Tracker_Emp%2Fmain%2Fattendance_data.xlsx&wdOrigin=BROWSELINK"
 
 # Define a shared variable to hold the attendance data
 
