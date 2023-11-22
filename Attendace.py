@@ -50,7 +50,7 @@ def checkin():
             "Check-Out Time": None
         }
         attendance_data = pd.concat([attendance_data, pd.DataFrame([new_entry])], ignore_index=True)
-        attendance_data.to_excel(excel_file_path, index=False)  # Update Excel file
+        attendance_data.to_excel(excel_file_path, index=False, engine="openpyxl")  # Update Excel file
         st.success(f"Checked in at {checkin_time}")
 
 if st.button("Check-In"):
